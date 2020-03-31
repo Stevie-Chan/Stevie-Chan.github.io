@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>StevieChan&#39;s Blog</title>
+<title>PHP | StevieChan&#39;s Blog</title>
 <meta name="description" content="
 ">
 
@@ -64,54 +66,64 @@
 </transition>
 
 
-        <div class="content-container">
-          
-          
+      <div class="content-container">
 
-<div class="archives-container">
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> PHP
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://Stevie-Chan.github.io/post/php-zhong-echo-yu-print-de-bu-tong-zhi-chu/">
+        <h2 class="post-title">PHP中echo与print的不同之处</h2>
+      </a>
+      <div class="post-abstract">
+        <p>一般来说，PHP中动态输出HTML内容，是通过print 和 echo 语句来实现的，在实际使用中， print 和 echo 两者的功能几乎是完全一样。可以这么说，凡是有一个可以使用的地方，另一个也可以使用。但是，两者之间也还是一个非常重要的区别：<em><strong>在 echo 函数中，可以同时输出多个字符串，而在 print 函数中则只可以同时输出一个字符串。同时，echo函数并不需要圆括号，所以echo函数更像是语句而不像是函数。</strong></em><br>
+<strong>echo 和 print 都不是函数，而是语言结构，所以圆括号都不是必需的。</strong></p>
+<p>他们的区别在于：</p>
+<p>(1) echo可以输出多个字符串，像下面这样：</p>
+<p>echo 'a','b','c';<br>
+如果你非要加上圆括号，注意写成echo ('a','b','c');是错误的，应该写成：</p>
+<p>echo ('a'),('b'),('c');<br>
+它没有像函数的行为，所以不能用于函数的上下文</p>
+
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-03-31</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://Stevie-Chan.github.io/tag/JoXAiwiZU/">
+                PHP
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://Stevie-Chan.github.io/post/php-zhong-echo-yu-print-de-bu-tong-zhi-chu/">
+        <div class="feature-container" style="background-image: url('https://Stevie-Chan.github.io//post-images/php-zhong-echo-yu-print-de-bu-tong-zhi-chu.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+
+<div class="pagination-container">
   
-    <h2 class="year">2020</h2>
-    
-      
-        <article class="post">
-          <a href="https://Stevie-Chan.github.io/post/php-zhong-echo-yu-print-de-bu-tong-zhi-chu/">
-            <h2 class="post-title">
-              PHP中echo与print的不同之处
-              <small>2020-03-31</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://Stevie-Chan.github.io/post/jsp-servlet-cookies-session/">
-            <h2 class="post-title">
-              Jsp Servlet Cookies Session
-              <small>2020-03-24</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://Stevie-Chan.github.io/post/stock-study/">
-            <h2 class="post-title">
-              STOCK STUDY
-              <small>2020-03-22</small>
-            </h2>
-          </a>
-        </article>
-      
-    
   
 </div>
 
 
-        </div>
+      </div>
 
-        <div class="site-footer">
+      <div class="site-footer">
   <div class="slogan">
 </div>
   <div class="social-container">
@@ -131,8 +143,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -148,6 +160,5 @@ var app = new Vue({
 
 
 
-    </div>
   </body>
 </html>

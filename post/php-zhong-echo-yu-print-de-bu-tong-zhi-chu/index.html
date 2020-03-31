@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>Jsp Servlet Cookies Session | StevieChan&#39;s Blog</title>
+<title>PHP中echo与print的不同之处 | StevieChan&#39;s Blog</title>
 <meta name="description" content="
 ">
 
@@ -69,18 +69,18 @@
       <div class="content-container">
         <div class="post-detail">
           
-            <div class="feature-container" style="background-image: url('https://Stevie-Chan.github.io//post-images/jsp-servlet-cookies-session.png')">
+            <div class="feature-container" style="background-image: url('https://Stevie-Chan.github.io//post-images/php-zhong-echo-yu-print-de-bu-tong-zhi-chu.jpg')">
             </div>
           
-          <h2 class="post-title">Jsp Servlet Cookies Session</h2>
+          <h2 class="post-title">PHP中echo与print的不同之处</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-03-24</span>
+            <span><i class="icon-calendar-outline"></i> 2020-03-31</span>
             
               <span>
                 <i class="icon-pricetags-outline"></i>
                 
-                  <a href="https://Stevie-Chan.github.io/tag/nIb4j4Xd4/">
-                    JEE
+                  <a href="https://Stevie-Chan.github.io/tag/JoXAiwiZU/">
+                    PHP
                     
                   </a>
                 
@@ -88,17 +88,48 @@
             
           </div>
           <div class="post-content">
-            <p>🚗<br>
-🚕🚙🚌🚓🚑🚒🚐🚚🚛🛴🛵🚲🏍🚔🚍🚘🚟🚃🚞🚋🚝🚄🚅🚠🚡🚖🚂🚆🚇🚊🚉🚁🛩✈️🛫🚀💺🛶⛵️🚤🚢⚓️🚧⛽️🚏🚦🗺🗿🗽⛲️🗼🏰🏯🏭🏠🏡🏘🏚🏢🏬🏣🏤🏥🏦🏨🏪🏫🏩💒🏛⛪️🕌🕍🕋⛩🌌🗿</p>
+            <p>一般来说，PHP中动态输出HTML内容，是通过print 和 echo 语句来实现的，在实际使用中， print 和 echo 两者的功能几乎是完全一样。可以这么说，凡是有一个可以使用的地方，另一个也可以使用。但是，两者之间也还是一个非常重要的区别：<em><strong>在 echo 函数中，可以同时输出多个字符串，而在 print 函数中则只可以同时输出一个字符串。同时，echo函数并不需要圆括号，所以echo函数更像是语句而不像是函数。</strong></em><br>
+<strong>echo 和 print 都不是函数，而是语言结构，所以圆括号都不是必需的。</strong></p>
+<p>他们的区别在于：</p>
+<p>(1) echo可以输出多个字符串，像下面这样：</p>
+<p>echo 'a','b','c';<br>
+如果你非要加上圆括号，注意写成echo ('a','b','c');是错误的，应该写成：</p>
+<p>echo ('a'),('b'),('c');<br>
+它没有像函数的行为，所以不能用于函数的上下文</p>
+<!-- more -->
+<p>(2) print只能输出一个字符串，它可以表现得像一个函数，比如你可以如下使用：</p>
+<p>$ret = print 'Hello World';<br>
+所有它能用在更复杂的表达式中。<br>
+另外，echo的效率相对比较快！</p>
+<p>看看如下代码：</p>
+<?php
+$a='hello ';$b='php world!';echo $a,$b.'<br />';//echo 可以用逗号分隔字符串变量来显示
+print $a.$b.'<br />';//而print不能使用逗号，只能用点号分隔，
+//print $a,$b.'<br />';//这里使用逗号时报错。
+?>
+<p>分析总结：</p>
+<p>echo    命令和print命令相同，没有区别 <br>
+echo    函数和print函数有区别。 <br>
+echo()    无返回值，与echo命令相同 <br>
+print()    有返回值，成功，返1，false,返0.   <br>
+printf()    和sprintf()类似，均为格式化输出，不同的是前者输出到标准输出，后者输出到变量</p>
+<p>形如：</p>
+<p>echo  &lt;&lt;&lt; EOT<br>
+EOT;<br>
+print  &lt;&lt;&lt; EOT<br>
+EOT;</p>
+<p>的书写格式，其含义如下:</p>
+<p>&lt;&lt;&lt;    运算符，将由自定义分界符间的内容视为字符串，可对其间的变量做处理 <br>
+EOT    自定义分界符，结束时必须位于行首</p>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://Stevie-Chan.github.io/post/stock-study/">
+            <a class="purple-link" href="https://Stevie-Chan.github.io/post/jsp-servlet-cookies-session/">
               <h3 class="post-title">
-                下一篇：STOCK STUDY
+                下一篇：Jsp Servlet Cookies Session
               </h3>
             </a>
           </div>
