@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Stevie-Chan.github.io/</id>
     <title>StevieChan&apos;s Blog</title>
-    <updated>2020-03-31T14:55:33.966Z</updated>
+    <updated>2020-03-31T14:58:07.123Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Stevie-Chan.github.io/"/>
     <link rel="self" href="https://Stevie-Chan.github.io/atom.xml"/>
@@ -17,8 +17,9 @@
         <link href="https://Stevie-Chan.github.io/post/php-zhong-echo-yu-print-de-bu-tong-zhi-chu/">
         </link>
         <updated>2020-03-31T10:52:19.000Z</updated>
-        <summary type="html"><![CDATA[<p>一般来说，PHP中动态输出HTML内容，是通过print 和 echo 语句来实现的，在实际使用中， print 和 echo 两者的功能几乎是完全一样。可以这么说，凡是有一个可以使用的地方，另一个也可以使用。但是，两者之间也还是一个非常重要的区别：<em><strong>在 echo 函数中，可以同时输出多个字符串，而在 print 函数中则只可以同时输出一个字符串。同时，echo函数并不需要圆括号，所以echo函数更像是语句而不像是函数。</strong></em><br>
-<strong>echo 和 print 都不是函数，而是语言结构，所以圆括号都不是必需的。</strong></p>
+        <summary type="html"><![CDATA[<p>一般来说，PHP中动态输出HTML内容，是通过print 和 echo 语句来实现的，在实际使用中， print 和 echo 两者的功能几乎是完全一样。可以这么说，凡是有一个可以使用的地方，另一个也可以使用。但是，两者之间也还是一个非常重要的区别：</p>
+<p><em><strong>在 echo 函数中，可以同时输出多个字符串，而在 print 函数中则只可以同时输出一个字符串。同时，echo函数并不需要圆括号，所以echo函数更像是语句而不像是函数。</strong></em></p>
+<p><strong>echo 和 print 都不是函数，而是语言结构，所以圆括号都不是必需的。</strong></p>
 <p>他们的区别在于：</p>
 <p>(1) echo可以输出多个字符串，像下面这样：</p>
 <p>echo 'a','b','c';<br>
@@ -26,8 +27,9 @@
 <p>echo ('a'),('b'),('c');<br>
 它没有像函数的行为，所以不能用于函数的上下文</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>一般来说，PHP中动态输出HTML内容，是通过print 和 echo 语句来实现的，在实际使用中， print 和 echo 两者的功能几乎是完全一样。可以这么说，凡是有一个可以使用的地方，另一个也可以使用。但是，两者之间也还是一个非常重要的区别：<em><strong>在 echo 函数中，可以同时输出多个字符串，而在 print 函数中则只可以同时输出一个字符串。同时，echo函数并不需要圆括号，所以echo函数更像是语句而不像是函数。</strong></em><br>
-<strong>echo 和 print 都不是函数，而是语言结构，所以圆括号都不是必需的。</strong></p>
+        <content type="html"><![CDATA[<p>一般来说，PHP中动态输出HTML内容，是通过print 和 echo 语句来实现的，在实际使用中， print 和 echo 两者的功能几乎是完全一样。可以这么说，凡是有一个可以使用的地方，另一个也可以使用。但是，两者之间也还是一个非常重要的区别：</p>
+<p><em><strong>在 echo 函数中，可以同时输出多个字符串，而在 print 函数中则只可以同时输出一个字符串。同时，echo函数并不需要圆括号，所以echo函数更像是语句而不像是函数。</strong></em></p>
+<p><strong>echo 和 print 都不是函数，而是语言结构，所以圆括号都不是必需的。</strong></p>
 <p>他们的区别在于：</p>
 <p>(1) echo可以输出多个字符串，像下面这样：</p>
 <p>echo 'a','b','c';<br>
