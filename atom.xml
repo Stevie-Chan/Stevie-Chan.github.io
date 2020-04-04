@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Stevie-Chan.github.io/</id>
     <title>StevieChan&apos;s Blog</title>
-    <updated>2020-04-01T05:07:00.190Z</updated>
+    <updated>2020-04-04T09:35:09.998Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Stevie-Chan.github.io/"/>
     <link rel="self" href="https://Stevie-Chan.github.io/atom.xml"/>
@@ -11,6 +11,20 @@
     <logo>https://Stevie-Chan.github.io/images/avatar.png</logo>
     <icon>https://Stevie-Chan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, StevieChan&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[考研，少年亦是少年]]></title>
+        <id>https://Stevie-Chan.github.io/post/kao-yan-shao-nian-yi-shi-shao-nian/</id>
+        <link href="https://Stevie-Chan.github.io/post/kao-yan-shao-nian-yi-shi-shao-nian/">
+        </link>
+        <updated>2020-04-04T09:02:43.000Z</updated>
+        <content type="html"><![CDATA[<p>2020.4.4</p>
+<p>决定考研</p>
+<p>目标北京工业大学</p>
+<p>管理科学与工程</p>
+<p>如果你很迷惑就重新复习下！</p>
+<p>北京工业大学管理科学与工程初试专业课与复试经验       https://zhuanlan.zhihu.com/p/61881898</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[十诫]]></title>
         <id>https://Stevie-Chan.github.io/post/shi-jie/</id>
